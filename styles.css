@@ -198,10 +198,43 @@ body {
     font-size: 1rem;
 }
 
-.contact-form input:focus, .contact-form textarea:focus {
-    border-bottom: 2px solid var(--accent-orange);
+/* Información de Contacto Directa */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto 30px;
 }
 
+.info-card {
+    background-color: #111111;
+    border: 1px solid #222222;
+    border-left: 3px solid var(--accent-orange);
+    padding: 15px 20px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: left;
+}
+
+.info-card i {
+    font-size: 1.4rem;
+    color: var(--accent-orange);
+    min-width: 25px;
+}
+
+.info-card p, .info-card a {
+    color: var(--text-light);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.info-card a:hover {
+    color: var(--accent-orange);
+}
 .social-links { text-align: center; }
 .social-links a {
     color: var(--text-light);
