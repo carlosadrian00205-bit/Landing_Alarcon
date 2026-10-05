@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Carlos Adrian Alarcón Valencia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome para los íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="profile-img">
+            <!-- Espacio para tu foto -->
+            <img src="https://via.placeholder.com/150/1A1A1A/FF5722?text=Carlos" alt="Carlos Adrian">
+        </div>
+        <h1 class="glow-text">CARLOS ADRIAN ALARCÓN VALENCIA</h1>
+        <h2>Desarrollador de Software | Estudiante de Ingeniería en TI</h2>
+    </header>
+
+    <section class="about section-dark">
+        <h3 class="section-title">Sobre mí</h3>
+        <p>
+            Soy estudiante de 2do cuatrimestre de Ingeniería en Tecnologías de la Información e Innovación Digital en la Universidad Politécnica de Chiapas. Vivo en Ocozocoautla de Espinosa y me apasiona construir soluciones tecnológicas integrales. Disfruto diseñando arquitecturas de red, creando bases de datos eficientes y desarrollando aplicaciones web y móviles escalables.
+        </p>
+    </section>
+
+    <!-- Divisor estilo montaña/fuego -->
+    <div class="divider">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,50 L100,100 L200,20 L300,110 L400,40 L500,90 L600,10 L700,100 L800,30 L900,110 L1000,50 L1100,90 L1200,20 L1200,120 L0,120 Z" class="shape-fill"></path>
+            <path d="M0,50 L100,100 L200,20 L300,110 L400,40 L500,90 L600,10 L700,100 L800,30 L900,110 L1000,50 L1100,90 L1200,20" class="shape-stroke"></path>
+        </svg>
+    </div>
+
+    <section class="languages section-darker">
+        <h3 class="section-title">Lenguajes y Herramientas</h3>
+        <div class="grid-icons">
+            <div class="icon-box"><i class="fa-brands fa-cuttlefish"></i><span>C++</span></div>
+            <div class="icon-box"><i class="fa-brands fa-java"></i><span>Java</span></div>
+            <div class="icon-box"><i class="fa-brands fa-python"></i><span>Python</span></div>
+            <div class="icon-box"><i class="fa-brands fa-html5"></i><span>HTML/CSS</span></div>
+            <div class="icon-box"><i class="fa-brands fa-android"></i><span>Kotlin / Android</span></div>
+            <div class="icon-box"><i class="fa-solid fa-database"></i><span>MySQL</span></div>
+            <div class="icon-box"><i class="fa-brands fa-aws"></i><span>AWS EC2</span></div>
+            <div class="icon-box"><i class="fa-brands fa-linux"></i><span>Linux</span></div>
+        </div>
+    </section>
+
+    <div class="divider">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,80 L150,20 L300,100 L450,40 L600,90 L750,10 L900,110 L1050,30 L1200,70 L1200,120 L0,120 Z" class="shape-fill"></path>
+            <path d="M0,80 L150,20 L300,100 L450,40 L600,90 L750,10 L900,110 L1050,30 L1200,70" class="shape-stroke"></path>
+        </svg>
+    </div>
+
+    <section class="projects section-dark">
+        <h3 class="section-title">Proyectos Destacados</h3>
+        <div class="project-list">
+            <div class="project-card">
+                <h4>Deco-One</h4>
+                <p>Plataforma web para decoradores de eventos. Diseño de esquemas de bases de datos, maquetación e integraciones de API para gestión de paquetes, inventario y reservas.</p>
+                <a href="#" class="btn-orange">Ver detalles &gt;</a>
+            </div>
+            <div class="project-card">
+                <h4>Monitor AWS EC2</h4>
+                <p>Script de automatización en Bash para servidores Ubuntu que monitorea recursos de hardware en tiempo real y envía alertas mediante un bot de Telegram.</p>
+                <a href="#" class="btn-orange">Ver detalles &gt;</a>
+            </div>
+            <div class="project-card">
+                <h4>API RESTful en Java</h4>
+                <p>Desarrollo backend utilizando Javalin, Maven y MySQL para gestionar registros departamentales con endpoints probados en Postman.</p>
+                <a href="#" class="btn-orange">Ver detalles &gt;</a>
+            </div>
+            <div class="project-card">
+                <h4>App de Estadística y Gemini AI</h4>
+                <p>Aplicación interactiva desarrollada en Python (Streamlit y Plotly) para evaluar pruebas de hipótesis estadísticas, integrando IA generativa.</p>
+                <a href="#" class="btn-orange">Ver detalles &gt;</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="contact section-darker">
+        <h3 class="section-title">Contacto</h3>
+        <form class="contact-form">
+            <input type="text" placeholder="Tu Nombre">
+            <input type="email" placeholder="Tu Correo">
+            <textarea rows="4" placeholder="Mensaje"></textarea>
+            <button type="submit" class="btn-orange">Enviar Mensaje</button>
+        </form>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
